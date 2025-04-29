@@ -1,0 +1,13 @@
+
+- name: Restart Nginx Container
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  environment:
+    DOCKER_HOST: "unix:///var/run/docker.sock"
+  tasks:
+    - name: Restart Nginx Docker container
+      community.docker.docker_container:
+        name: nginx  # Replace with your actual container name
+        state: started
+        restart: yes 
