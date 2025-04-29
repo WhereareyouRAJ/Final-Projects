@@ -19,8 +19,17 @@
 
 ```
 .
-├── screenshots
-├── webhook/
+├── screenshots/
+│   ├── alert-firing.png
+│   ├── alert-inactive.png
+│   ├── alert-pending.png
+│   ├── alert-recived.png
+│   ├── alert.png
+│   ├── container-running.png
+│   ├── nginx-down.png
+│   ├── nginx-up.png
+│   ├── nginx.png
+│   ├── webhook/
 │   ├── ansible.cfg
 │   ├── app.py
 │   ├── Dockerffile
@@ -36,13 +45,13 @@
 ---
 
 ### Tech stack & Tools
-- Prometheus - Monitoring
-- Alertmanager - Alert routing
-- Flask webhook - Custom container recovery
-- Docker - Containerization
-- Docker compose - Service orchestration
-- Nginx - Test application
-- Node Exporter/ Nginx Exporter - For detailed metrix 
+- **Prometheus** - Monitoring
+- **Alertmanager** - Alert routing
+- **Flask webhook** - Custom container recovery
+- **Docker** - Containerization
+- **Docker compose** - Service orchestration
+- **Nginx** - Test application
+- **Node Exporter/ Nginx Exporter** - For detailed metrix 
 
 ---
 
